@@ -11,7 +11,7 @@ Do Crawling based on Spark Distributed Processing, However, there is no marit to
 
 We use the Spark Processing to Crawling. so Manage Our CPU Core resources.
 
-there is a growing demand for information to process large amounts of data[text for url maining].
+There is a growing demand for information to process large amounts of data[from url maining].
 
 ## Getting Started
 Big data processing for large url data.
@@ -51,7 +51,7 @@ If you want to know more about the above Tool, please refer to the link below.
 
 ### Dataset
 
-urllist like below
+Needs: url list like below
 * https://www.naver.com/
 * https://www.daum.net/
 * https://www.google.com/
