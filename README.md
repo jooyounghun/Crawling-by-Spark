@@ -68,10 +68,10 @@ urllist like below
 
 ### spark configuration
 * master node with 1 slave nodes
-* [ssh, ip configuration](secret)
+* ssh, ip configuration(secret)
 * spark configuration
-  * [master](secret)
-  * [slave](secret)
+  * master(secret)
+  * slave(secret)
 
 
 
