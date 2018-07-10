@@ -114,6 +114,20 @@ fill
 spark-submit --master spark:masterID ~/$file
 ```
 
+
+> Crawled Output
+
+ ** Output Captured Screen **
+
+<table>
+  <tr>
+    <td>
+     <img src="crawling/output/crawled_out.png"/>
+    </td>
+  </tr>
+</table>
+
+
 #### Additional Technology
 * tmux
 * openvpn
