@@ -11,7 +11,7 @@ Do Crawling based on Spark Distributed Processing, However, there is no marit to
 
 We use the Spark Processing to Crawling. so Manage Our CPU Core resources.
 
-there is a growing demand for information to process large amounts of data[text or image].
+there is a growing demand for information to process large amounts of data[text for url maining].
 
 ## Getting Started
 Big data processing for large url data.
@@ -21,7 +21,7 @@ Big data processing for large url data.
 ### Spark Crawling Step
 * Take Dataset from some Cooperations with SKT
   * using Take a CALL & GET data.
-* Preprocessing  image using Mask-RCNN
+* Preprocessing
   * using url labeling -> good or bad detect
   * using divide data into RDD structures in local for Analysis
   * using `Crawling_using_Python.py` split url dataset & Crawl them.
