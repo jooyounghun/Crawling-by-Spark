@@ -66,6 +66,10 @@ Needs: url list like below
 * OpenVPN
 * Vim Editor
 
+### Cloud Server Node Environment
+* Number of Core = 40 cores
+* Space of Memory = 130 Gb
+
 ### spark configuration
 * master node with 1 slave nodes
 * ssh, ip configuration(secret)
