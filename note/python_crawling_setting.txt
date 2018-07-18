@@ -1,0 +1,5 @@
+sudo pip install virtualenv
+
+crawling <— skt  회사에서 크롤링작업을 위한 mac 환경 세팅
+
+

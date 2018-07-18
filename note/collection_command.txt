@@ -1,0 +1,28 @@
+명령어 모음
+
+update-alternatives —config java  <— where java
+dstat <— 메모리 사용량
+top <— 메모리 사용량
+sed -n 1,10p file_name <— file 안에 내용 보기 1~10p
+rpm -qa | grep jdk <— 자바 설치됬는지 보기
+
+java _home 설정법
+which java <— java 어디에 깔렸는지
+ls -al 위에 나온 경로
+
+ls -al /etc/alternatives/java
+
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14…등등 그냥 커맨드 라인에 치더라
+
+ls -al 위에 주소.
+
+man ls <— ls 명령어 사용법
+man grep <— grep 명령어 사용법
+pwd <— 현재 위치
+vim ~/.bashrc <— 여기에 자바 경로 기입 but 바로 적용이 안된다. 왜냐면 다시 접속할 때 발생하는 bash_profile 이 실행되면서 bashrc 가 그 안에서 연쇄적으로 발생하기 때문에.
+source ~/.bashrc <— 이거로 업데이트한다.
+
+ema .bash_profile
+su root
+sudo su root <— root 권한 가져오는것 같은데
+

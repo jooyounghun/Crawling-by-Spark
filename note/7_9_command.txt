@@ -1,0 +1,9 @@
+getconf LONG_BIT <— 나의 cpu 비트수
+
+cat /proc/cpuinfo <— cpu 정보 확인
+
+grep -c processor /proc/cpuinfo <— cpu 코더 개수 확인
+
+grep “pyhsical id” /proc/cpuinfo|sort -u | wc -l <— 물리 cpu 수 확인
+
+grep “cpu cores” /proc/cpuinfo |tail -1 <— cpu 당 물리 코어 수 확인

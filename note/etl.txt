@@ -1,0 +1,3 @@
+Extract Transform Load
+
+데이터추출하는 키워드를 ETL이라고 한다.

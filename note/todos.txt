@@ -1,0 +1,12 @@
+Kafka 실습
+Crawling 실습
+
+sparkler의 전체적인 과정을 해본다.
+
+배치 크롤링
+아파치solr 저장
+멀티모듈maven with osgi bundles
+크롤된 데이터 관리 아파치 카프카
+아파치 키파로 파싱
+바나나로 비주얼
+

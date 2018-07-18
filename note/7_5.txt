@@ -1,0 +1,13 @@
+anaconda environment
+source activate
+
+deactivate
+
+docker에 대해서
+portable software
+
+kubenetes
+
+hypervisor - vm 같은거
+
+openlr <-- 게임 만들 수 있다(라이딩 게임)

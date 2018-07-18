@@ -1,0 +1,71 @@
+download
+
+for python2.7
+
+wget https://repo.continuum.io/archive/Anaconda2-4.3.0-Linux-x86_64.sh
+
+for python3.6
+
+wget https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+
+
+install
+
+for python2.7
+bash Anaconda2-4.3.0-Linux-x86_64.sh
+
+for python3.6
+
+bash Anaconda3-4.3.0-Linux-x86_64.sh
+
+
+
+
+
+
+anaconda 를 이용하여 파이썬을 설치했다. (잘 모르지만 numpy, pandas, ipython 등 파이썬 패키지가 다 설치된다고 해서 설치해 봤더니 사용하기 괜찮아서 계속 쓰고 있다.)
+이런 환경에서 django 를 배워 볼려고 pip 을 이용해 virtualenv 를 설치하려고 하니, conda 에서는 불안정한다는 경고 메세지가 뜨면서 그래도 설치할거냐고 물어보는게 아닌가? 물론 no 를 하고 conda를 이용하여 가상 환경을 만드는 방법을 찾아 봤다.
+
+
+다음과 같은 방법으로 conda를 이용하여 가상환경을 만들 수 있다.
+
+
+터미널 창을 열고, 일단 콘다를 업데이트 한다.
+
+
+conda update conda
+
+그리고 다음과 같이 가상 환경을 생성한다.
+
+
+conda create -n name python=x.x anaconda
+
+물론 위의 name 자리에는 가상 환경에 붙여주고 싶은 이름을 넣으면 되고, x.x 에는 사용하고자 하는 파이썬 버전을 넣어주면 된다. 예를 들어, testvirenv 라는 이름으로 파이썬 3.5 를 사용하는 가상 환경을 만들고 싶으면
+
+
+conda create -n testvirenv python=3.5 anaconda
+
+라고 입력하면 된다.
+그러면 anaconda 가 설치된 디렉토리 밑에 "설치디렉토리/anaconda/envs/testvirenv" 라는 디렉토리가 생성되면서 그 안에 필요한 것들을 설치하겠냐고 묻는다. 당연히 "y" 를 눌러서 설치를 한다.
+
+
+이후에 가상환경을 활성화 하고 싶으면
+
+
+source activate name
+
+라고 해 주면 되고, 비활성화 시키고 싶으면
+
+
+source deactivate
+
+라고 해 주면 된다.
+가상 환경을 제거하고 싶으면 터미널에 다음을 입력한 후 엔터를 치면 된다.
+
+
+conda remove -n name —all
+
+
+가상환경 list 전부 보기
+
+>>conda env list

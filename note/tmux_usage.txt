@@ -1,0 +1,28 @@
+왜 tmux mac 에서 단축키가 안 먹는 걸까
+virtualenv 환경 세팅하기
+
+
+tmux 
+ctrl b then shift %
+ctrl b then shift "
+
+세션 생성하며 이름 지정
+tmux new -s session_name
+tmux new-session -s session_name
+
+세션 종료
+exit
+
+or
+
+세션 바깥에서 특정 세션을 종료
+
+tmux kill-session -t session_name
+
+세션 attach
+tmux attach -t session_name
+
+tmux ls <-- 세션 리스트
+
+reference : https://bluesh55.github.io/2016/10/10/tmux-tutorial/
+

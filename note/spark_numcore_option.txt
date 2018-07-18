@@ -1,0 +1,7 @@
+spark 폴더의 conf폴더에 spark-env.sh를 만들고
+
+그 안에
+
+export SPARK_WORKER_INSTANCES=3 <— 하나의 노드에서 여러개의 워커들을 만들 수 있다.
+
+export SPARK_WORKER_MEMORY=10g <— 10g의 메모리를 줄 수 있다.

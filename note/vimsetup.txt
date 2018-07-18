@@ -1,0 +1,22 @@
+</home/사용자폴더 .vimrc 파일 수정>
+vim 설정 파일이라고 보면 됨!
+없으면 만들어주자.
+
+.vimrc에다가 적어준다.
+
+
+
+
+syntax on -> 문법 기능 on
+filetype indent plugin on -> 확장자로 문서 형식 파악
+let python_version_2 = 1 -> python2 문법을 따름(플러그인)
+let python_highlight_all = 1 -> 모든 강조(색상) on(플러그인)
+set tabstop=8 -> 탭의 길이 설정
+set expandtab
+set softtabstop = 4 -> 탭을 누를 때 실제로 벌어지는 간격
+set autoindent -> 자동 들여쓰기
+set bg=dark -> 배경을 어둡게(필수!) 가독성이 좋아짐
+set nu -> 라인 숫자 on
+
+
+일단 기본적인 셋팅은 이렇게 하면 된다!

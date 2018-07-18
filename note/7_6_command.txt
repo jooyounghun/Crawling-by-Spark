@@ -1,0 +1,53 @@
+history - command log 보기
+
+lsof -i :8888
+
+jupyter notebook —generate-config
+
+vi .jupyter/jupyter_notebook_config.py
+
+ema slaves.template
+
+cp slaves.template slaves  <— 쓰려면 쓰라고 템플릿으로 만들어 놓은 것을 slaves로 카피하여 사용한다.
+
+vi slaves
+
+lsof -i :8080
+
+cat ../conf/slaves
+
+ssh-copy-id localhost
+ssh-keygen
+ssh-copy-id localhost
+
+
+vi .bashrc
+source .bashrc
+
+man lsof
+
+head [file] <— file을 일부만 본다.
+
+
+.bashrc 안에서
+
+export SPARK_HOME=/home/intern/crawling/spark-2.3.1-bin-hadoop2.7
+export PATH=$SPARK_HOME/bin:$SPARK_HOME/sbin:$PATH
+일일히 패스 설정 안해줘도 된다. 디폴트 값을 잡아서 실행하면 어떤 디렉토리에 있어도 실행할 수 있다.
+
+export PATH=“/home/intern/anaconda3/bin:$PATH”
+일일히 아나콘다 디렉토리에 들어가서 pip 명령어 쓰지 않고,
+그냥 어디서든 pip 명령어를 통해 설치하면 anaconda에 깔린다.
+
+
+cd ~ <— 디폴트 폴더에 간다.
+
+sbin은 데몬을 돌릴때 사용하는 명령어
+bin 은 클라이언트가 사용하는 명령어
+
+
+x server 에 노드 돌리는 법. - gui 환경으로 원격 접속
+
+
+
+blas <— c++ 로 cnn

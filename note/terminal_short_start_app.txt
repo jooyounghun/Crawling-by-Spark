@@ -1,0 +1,4 @@
+vi ~/.bash_profile
+
+  2 alias chrome="open -a 'Google Chrome'"
+  3 alias teamviewer="open -a 'TeamViewer’"

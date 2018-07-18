@@ -1,0 +1,4 @@
+./bin/spark-submit —master spark:7077 ~/crawling/code/cr1.py
+
+
+this command
