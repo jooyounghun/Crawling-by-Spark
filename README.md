@@ -16,8 +16,6 @@ There is a growing demand for information to process large amounts of data[from 
 ## Getting Started
 Big data processing for large url data.
 
-## Getting Started
-
 ### Spark Crawling Step
 * Take Dataset from some Cooperations with SKT
   * using Take a CALL & GET data.
