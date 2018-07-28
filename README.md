@@ -1,9 +1,9 @@
-# SKT-WORKS-INTERNSHIP
+# CRAWLING BY SPARK PROCESS
 ___
 
 ## About
 
-2018_SKT_WORKS_INTERNSHIP
+2018 SUMMER CRAWLING PROCESS BY SPARK DISTRIBUTED PROCESSING.
 
 Crawling_by_Spark
 
@@ -13,11 +13,12 @@ We use the Spark Processing to Crawling. so Manage Our CPU Core resources.
 
 There is a growing demand for information to process large amounts of data[from url maining].
 
+
 ## Getting Started
 Big data processing for large url data.
 
 ### Spark Crawling Step
-* Take Dataset from some Cooperations with SKT
+* URL Dataset
   * using Take a CALL & GET data.
 * Preprocessing
   * using url labeling -> good or bad detect
@@ -115,19 +116,6 @@ fill
 ```
 spark-submit --master spark:masterID ~/$file
 ```
-
-
-> Crawled Output
-
- ** Output Captured Screen **
-
-<table>
-  <tr>
-    <td>
-     <img src="crawling/output/crawled_out.png"/>
-    </td>
-  </tr>
-</table>
 
 
 #### Additional Technology
